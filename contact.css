@@ -111,3 +111,36 @@ input {
    
 }
 
+@media (max-width:682px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+  form{
+    display: flex;
+    margin: auto;
+    
+  }
+  img{
+    width: fit-content;
+  }
+}
+
+@media (max-width:452px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+  form{
+    display: flex;
+    margin: auto;
+    
+  }
+  img{
+    width: 50%;
+  }
+}
