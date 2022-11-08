@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./contact.css" />
+    <title>document</title>
+  </head>
+  <body>
+    <img
+      class="connect"
+      src="https://www.suzannethibault.net/wp-content/uploads/2018/08/Lets-Connect.png"
+      alt="Connect"
+    />
+    <form action="results.html" method="GET" enctype="multipart/form-data">
+      <input type="hidden" name="hidden" value="hi" />
+      <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+
+      <div class="checkbox">
+        How did you hear about me?
+        <div class="check">
+          <label for="classmate">Classmate</label>
+          <input type="checkbox" name="classmate" id="classmate" />
+        </div>
+        <div class="check">
+          <label for="resume">Resume Submission</label>
+          <input type="checkbox" name="resume" id="resume" />
+        </div>
+        <div class="check">
+          <label for="linkedin">Linkedin</label>
+          <input type="checkbox" name="linkedin" id="linkedin" />
+        </div>
+        <div class="check">
+          <label for="academy">Coding Acadmey Rec</label>
+          <input type="checkbox" name="academy" id="academy" />
+        </div>
+      </div>
+      <div class="comment">
+        <label for="comments">Comments</label>
+        <textarea
+          id="comments"
+          name="comments"
+          minlength="20"
+          maxlength="500"
+        ></textarea>
+      </div>
+      <div class="contact">
+        Do you wish to be contacted back?
+
+        <label for="yes">Yes</label>
+        <input type="radio" name="contacted" id="yes" value="yes" />
+        <label for="no">No</label>
+        <input type="radio" name="contacted" id="no" value="no" />
+      </div>
+
+      <div class="hbday">
+        <label for="date">Optional Birthdate Wish</label>
+        <input type="date" name="date" id="date" max="today()" />
+      </div>
+      <div class="submit">
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

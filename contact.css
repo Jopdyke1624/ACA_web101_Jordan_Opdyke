@@ -1,0 +1,113 @@
+body{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+img{
+    grid-column: 1;
+    grid-row: 1;
+    width: 75%;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 50%;
+    
+    
+}
+
+
+.submit {
+    margin:auto auto;      
+}
+
+button{
+    background-color: rgb(63, 63, 143);
+    color: white;
+    border-radius: 5px;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    color: navy;
+    font-weight: 700;
+}
+
+#name{
+    width: 100%;
+   border-color: navy;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.checkbox{
+    color: navy;
+    font-weight: 700;
+    
+}
+
+#email{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: navy;
+    
+}
+
+label{
+    display: flex;
+    color: navy;
+    font-weight: 700;
+    
+}
+
+.check{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    border-color: navy;
+}
+
+.comment{
+    display: flex;
+    gap: 5px;
+    
+}
+
+#comments{
+    color: navy;
+    font-weight: 700;
+    border-color: navy;
+    border-radius: 5px;
+    border-width: 2pt;
+}
+
+.hbday{
+    display: flex;
+    gap: 10px;
+    
+}
+
+input {
+    border-color: navy;
+   
+}
+
